@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 2</name>
+    <events>
+        <event-block sid="3787252915778361">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="8299617264826075" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="7806141699539397" type="Points">
+                    <param id="0" name="Text">puntos</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7836005704718318">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="9773059918465071" type="System">
+                    <param id="0" name="First value">Friend.Count</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="130087041067568" type="System">
+                    <param id="0" name="Layout">LEVEL 3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3052089941642471">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="7011347059874959" type="Player">
+                    <param id="0" name="Object">Friend</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="5097248819165226" type="Friend" />
+                <action id="-10" name="Add to" sid="5162963739403419" type="System">
+                    <param id="0" name="Variable">puntos</param>
+                    <param id="1" name="Value">15</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6993128081255803">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="3532803072209944" type="Player">
+                    <param id="0" name="Object">Liri</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="6722028330680448" type="Liri" />
+                <action id="-10" name="Add to" sid="7808795882481157" type="System">
+                    <param id="0" name="Variable">puntos</param>
+                    <param id="1" name="Value">20</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8201529632909428">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="3180228505945522" type="Player">
+                    <param id="0" name="Object">Valka</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="4010582177606876" type="Valka" />
+                <action id="-11" name="Subtract from" sid="4072628563567394" type="System">
+                    <param id="0" name="Variable">puntos</param>
+                    <param id="1" name="Value">20</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3703076929394357">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="1107410496244561" type="Player">
+                    <param id="0" name="Object">N3RO</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="7777607425407489" type="System">
+                    <param id="0" name="Variable">puntos</param>
+                    <param id="1" name="Value">150</param>
+                </action>
+                <action id="-9" name="Destroy" sid="9450767247289412" type="N3RO" />
+            </actions>
+        </event-block>
+        <event-block sid="3379355677535923">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="9449346618760998" type="Player">
+                    <param id="0" name="Object">X17</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="1076352189304886" type="System">
+                    <param id="0" name="Variable">puntos</param>
+                    <param id="1" name="Value">150</param>
+                </action>
+                <action behavior="Sine" id="0" name="Set active" sid="7081696572640857" type="X17">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9289385244003483">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="6320262848406032" type="Player">
+                    <param id="0" name="Object">ARQEN9</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="5382797407208256" type="ARQEN9" />
+                <action id="-10" name="Add to" sid="5210233843076318" type="System">
+                    <param id="0" name="Variable">puntos</param>
+                    <param id="1" name="Value">80</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3596049092357187">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="8634597996503074" type="Player">
+                    <param id="0" name="Object">ELARI</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="9937257440719992" type="System">
+                    <param id="0" name="Variable">puntos</param>
+                    <param id="1" name="Value">70</param>
+                </action>
+                <action id="-9" name="Destroy" sid="8921954600024874" type="ELARI" />
+            </actions>
+        </event-block>
+        <event-block sid="2880851144129824">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="5833627120993424" type="Player">
+                    <param id="0" name="Object">FAFA</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="290399119363861" type="System">
+                    <param id="0" name="Variable">puntos</param>
+                    <param id="1" name="Value">50</param>
+                </action>
+                <action id="-9" name="Destroy" sid="508404077984095" type="FAFA" />
+            </actions>
+        </event-block>
+        <event-block sid="9513521760430674">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="5395700953504668" type="Player">
+                    <param id="0" name="Object">KIMA</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="3145262092015721" type="System">
+                    <param id="0" name="Variable">puntos</param>
+                    <param id="1" name="Value">60</param>
+                </action>
+                <action id="-9" name="Destroy" sid="8823720945023668" type="KIMA" />
+            </actions>
+        </event-block>
+        <event-block sid="7187829731666707">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="7857011886334888" type="Player">
+                    <param id="0" name="Object">NUBU</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="9034095359082543" type="System">
+                    <param id="0" name="Variable">puntos</param>
+                    <param id="1" name="Value">40</param>
+                </action>
+                <action id="-9" name="Destroy" sid="5919932927150328" type="NUBU" />
+            </actions>
+        </event-block>
+        <event-block sid="6586378725144953">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4372237831858025" type="Player">
+                    <param id="0" name="Object">OVELAN</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="6269344255400893" type="System">
+                    <param id="0" name="Variable">puntos</param>
+                    <param id="1" name="Value">40</param>
+                </action>
+                <action id="-9" name="Destroy" sid="5285406937555547" type="OVELAN" />
+            </actions>
+        </event-block>
+        <event-block sid="40612657783244">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4920859636595212" type="Player">
+                    <param id="0" name="Object">TOVO</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="8344362249954843" type="System">
+                    <param id="0" name="Variable">puntos</param>
+                    <param id="1" name="Value">50</param>
+                </action>
+                <action id="-9" name="Destroy" sid="5447534003170829" type="TOVO" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

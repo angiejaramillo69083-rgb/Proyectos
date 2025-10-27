@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>START RESCUE</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>1pc0sb6x1qdbu</unique-id>
+    <saved-with-version>17800</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Car" version="1">Car</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1708</width>
+        <height>960</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D web</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">Chrome</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder expanded="1">
+        <object-type name="Level1" sid="4338116869534269">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3105258479189625" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\anggi\OneDrive\Desktop\fondo.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="NUBU" sid="5196149071909234">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8727366216207936" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\anggi\Downloads\ALIEN1.jpg">
+                        <collision-poly>
+                            <point x="0.267578" y="0.267578" />
+                            <point x="0.5" y="0.167969" />
+                            <point x="0.732422" y="0.267578" />
+                            <point x="0.933594" y="0.5" />
+                            <point x="0.761719" y="0.761719" />
+                            <point x="0.5" y="0.832031" />
+                            <point x="0.238281" y="0.761719" />
+                            <point x="0.0664063" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Points" sid="7505093478890325">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Level3" sid="6243850647446528">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3195735628503541" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\anggi\OneDrive\Desktop\fondo2.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Level2" sid="8346165998854431">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6430623496522623" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\anggi\OneDrive\Desktop\fondo3.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Player" sid="8652470268977867">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="ScrollTo" sid="4640964892957686">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="Car" sid="7570011390458862">
+                    <behavior id="Car" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="3219978400958397">
+                    <behavior id="bound" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6809531647824712" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\anggi\Downloads\501e0c36-74ea-49b2-88d7-1bbff88e2767.jpg">
+                        <collision-poly>
+                            <point x="0.318359" y="0.318359" />
+                            <point x="0.5" y="0.128906" />
+                            <point x="0.660156" y="0.339844" />
+                            <point x="0.902344" y="0.5" />
+                            <point x="0.759766" y="0.759766" />
+                            <point x="0.5" y="0.943359" />
+                            <point x="0.199219" y="0.800781" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ARQEN9" sid="398162339967927">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1021219594485638" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\anggi\OneDrive\Desktop\ALIEN2.jpg">
+                        <collision-poly>
+                            <point x="0.326172" y="0.326172" />
+                            <point x="0.5" y="0.183594" />
+                            <point x="0.683594" y="0.316406" />
+                            <point x="0.628906" y="0.5" />
+                            <point x="0.652344" y="0.652344" />
+                            <point x="0.5" y="0.730469" />
+                            <point x="0.365234" y="0.634766" />
+                            <point x="0.373047" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ELARI" sid="5003034719689227">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9434295954108485" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\anggi\OneDrive\Desktop\ALIEN3.jpg">
+                        <collision-poly>
+                            <point x="0.386719" y="0.386719" />
+                            <point x="0.5" y="0.253906" />
+                            <point x="0.699219" y="0.300781" />
+                            <point x="0.777344" y="0.5" />
+                            <point x="0.705078" y="0.705078" />
+                            <point x="0.5" y="0.775391" />
+                            <point x="0.265625" y="0.734375" />
+                            <point x="0.382813" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TOVO" sid="3573285276600445">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="663774094986382" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\anggi\OneDrive\Desktop\ALIEN4.jpg">
+                        <collision-poly>
+                            <point x="0.355469" y="0.355469" />
+                            <point x="0.5" y="0.246094" />
+                            <point x="0.65625" y="0.34375" />
+                            <point x="0.697266" y="0.5" />
+                            <point x="0.697266" y="0.697266" />
+                            <point x="0.5" y="0.476563" />
+                            <point x="0.304688" y="0.695313" />
+                            <point x="0.308594" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Liri" sid="6171088859529511">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="538586030851617" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\anggi\OneDrive\Desktop\ALIEN5.jpg">
+                        <collision-poly>
+                            <point x="0.353516" y="0.353516" />
+                            <point x="0.5" y="0.210938" />
+                            <point x="0.78125" y="0.5" />
+                            <point x="0.683594" y="0.683594" />
+                            <point x="0.5" y="0.791016" />
+                            <point x="0.300781" y="0.699219" />
+                            <point x="0.230469" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="KIMA" sid="2505821900502848">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1685369054065993" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\anggi\OneDrive\Desktop\ALIEN6.jpg">
+                        <collision-poly>
+                            <point x="0.378906" y="0.378906" />
+                            <point x="0.5" y="0.232422" />
+                            <point x="0.642578" y="0.357422" />
+                            <point x="0.630859" y="0.5" />
+                            <point x="0.697266" y="0.697266" />
+                            <point x="0.5" y="0.746094" />
+                            <point x="0.304688" y="0.695313" />
+                            <point x="0.392578" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="OVELAN" sid="5261300953659915">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4029198847223411" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\anggi\OneDrive\Desktop\ALIEN7.jpg">
+                        <collision-poly>
+                            <point x="0.423828" y="0.423828" />
+                            <point x="0.5" y="0.324219" />
+                            <point x="0.699219" y="0.300781" />
+                            <point x="0.609375" y="0.5" />
+                            <point x="0.673828" y="0.673828" />
+                            <point x="0.5" y="0.59375" />
+                            <point x="0.306641" y="0.693359" />
+                            <point x="0.335938" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="FAFA" sid="7384590451316164">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9618792670004042" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\anggi\OneDrive\Desktop\ALIEN8{.jpg">
+                        <collision-poly>
+                            <point x="0.287109" y="0.287109" />
+                            <point x="0.5" y="0.240234" />
+                            <point x="0.71875" y="0.28125" />
+                            <point x="0.744141" y="0.5" />
+                            <point x="0.726563" y="0.726563" />
+                            <point x="0.5" y="0.544922" />
+                            <point x="0.304688" y="0.695313" />
+                            <point x="0.265625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="X17" sid="4944367370816148">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="5452830229686031">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2844831559994307" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\anggi\Downloads\asteriode1.jpg">
+                        <collision-poly>
+                            <point x="0.191406" y="0.191406" />
+                            <point x="0.5" y="0.0371094" />
+                            <point x="0.835938" y="0.164063" />
+                            <point x="0.964844" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.962891" />
+                            <point x="0.173828" y="0.826172" />
+                            <point x="0.0332031" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Valka" sid="8566766754130302">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="490572344003517">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4048967242280217" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\anggi\Downloads\asteroide3.jpg">
+                        <collision-poly>
+                            <point x="0.234375" y="0.234375" />
+                            <point x="0.5" y="0.0605469" />
+                            <point x="0.785156" y="0.214844" />
+                            <point x="0.951172" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.951172" />
+                            <point x="0.173828" y="0.826172" />
+                            <point x="0.0820313" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="N3RO" sid="7893639833561488">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="8746588261929999">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5682577828806572" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\anggi\Downloads\asteriode2.jpg">
+                        <collision-poly>
+                            <point x="0.189453" y="0.189453" />
+                            <point x="0.5" y="0.0351563" />
+                            <point x="0.837891" y="0.162109" />
+                            <point x="0.966797" y="0.5" />
+                            <point x="0.832031" y="0.832031" />
+                            <point x="0.5" y="0.964844" />
+                            <point x="0.171875" y="0.828125" />
+                            <point x="0.0332031" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Friend" sid="6903206828920161">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7886219472928302" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\anggi\Downloads\aliens.jpg">
+                        <collision-poly>
+                            <point x="0.267578" y="0.267578" />
+                            <point x="0.5" y="0.167969" />
+                            <point x="0.732422" y="0.267578" />
+                            <point x="0.933594" y="0.5" />
+                            <point x="0.761719" y="0.761719" />
+                            <point x="0.5" y="0.832031" />
+                            <point x="0.238281" y="0.761719" />
+                            <point x="0.0664063" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Audio" sid="92201398686611">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Mouse" sid="469573714370248">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Sprite" sid="1035107082562603">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5502142687580004" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\anggi\Downloads\STAR.jpg">
+                        <collision-poly>
+                            <point x="0.392578" y="0.392578" />
+                            <point x="0.5" y="0.363281" />
+                            <point x="0.613281" y="0.386719" />
+                            <point x="0.625" y="0.5" />
+                            <point x="0.654297" y="0.654297" />
+                            <point x="0.5" y="0.601563" />
+                            <point x="0.419922" y="0.580078" />
+                            <point x="0.326172" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder expanded="1">
+        <layout>LEVEL 1 .xml</layout>
+        <layout>LEVEL 2.xml</layout>
+        <layout>LEVEL 3.xml</layout>
+        <layout>FINAL.xml</layout>
+    </layout-folder>
+    <event-folder expanded="1">
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>Event sheet 3.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Audio" uid="115">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+                <speed-of-sound>5000</speed-of-sound>
+                <doppler-factor>1</doppler-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Mouse" uid="116" />
+    </global-instances>
+    <sounds-folder expanded="1">
+        <file name="Thankyou.ogg" />
+        <file name="1761518235052903446m5t4awyp-voicemaker.in-speech (1).ogg" />
+    </sounds-folder>
+    <music-folder expanded="1" />
+    <files-folder expanded="1">
+        <file-folder expanded="0" name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
