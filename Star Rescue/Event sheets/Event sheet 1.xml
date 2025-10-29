@@ -299,11 +299,11 @@
         <event-block sid="9443828983797052">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="6830744993149528" type="Player">
-                    <param id="0" name="Object">Sprite</param>
+                    <param id="0" name="Object">STAR</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="9088826688554493" type="Sprite" />
+                <action id="-9" name="Destroy" sid="9088826688554493" type="STAR" />
                 <action id="-10" name="Add to" sid="5338776508094996" type="System">
                     <param id="0" name="Variable">puntos</param>
                     <param id="1" name="Value">500</param>

@@ -197,5 +197,19 @@
                 <action id="-9" name="Destroy" sid="5447534003170829" type="TOVO" />
             </actions>
         </event-block>
+        <event-block sid="1235840148384516">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="1111170931459457" type="Player">
+                    <param id="0" name="Object">STAR</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="9979183701596761" type="STAR" />
+                <action id="-10" name="Add to" sid="2171154085569472" type="System">
+                    <param id="0" name="Variable">puntos</param>
+                    <param id="1" name="Value">500</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

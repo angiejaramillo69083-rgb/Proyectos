@@ -352,7 +352,7 @@
         <object-type name="Mouse" sid="469573714370248">
             <plugin id="Mouse" />
         </object-type>
-        <object-type name="Sprite" sid="1035107082562603">
+        <object-type name="STAR" sid="1035107082562603">
             <plugin id="Sprite" />
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5502142687580004" speed="5">
